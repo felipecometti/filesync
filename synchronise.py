@@ -5,8 +5,8 @@ import datetime
 timestart = datetime.datetime.now()
 
 #===================================================================#
-#	Synchronisation block for files already available on dirs	    #
-#	Doesn't work as a connector (I don't know why I made this note) #
+#   Synchronisation block for files already available on dirs       #
+#   Doesn't work as a connector (I don't know why I made this note) #
 #===================================================================#
 
 def subs(name, src, dst):
@@ -65,9 +65,9 @@ def sync(name, src, dst):
 	print("Elapsed time: [" + str(deltatime) + "]")
 
 #===================================================================#
-#	End of the block                                                #
-#	--------------------                                            #
-#	Start of the call routines                                      #
+#   End of the block                                                #
+#   --------------------                                            #
+#   Start of the call routines                                      #
 #===================================================================#
 
 name = "Test"
@@ -78,9 +78,9 @@ sync(name, src, dst)
 # Copy and paste as many as you want
 
 #===================================================================#
-#	End of the call routine                                         #
-#	--------------------                                            #
-#	THE END                                                         #
+#   End of the call routine                                         #
+#   --------------------                                            #
+#   THE END                                                         #
 #===================================================================#
 
 timeend = datetime.datetime.now()
