@@ -14,14 +14,13 @@ But well:
 
 ### Details
 
-To call sync when imported:
-Provide sync(name, src, dst)
+To call sync when imported: 'sync(name, src, dst)'
 
 Being:
-name: file name, purely cosmetic
-src: source path
-dst: destination path
+* 'name': file name, purely cosmetic
+* 'src': source path
+* 'dst': destination path
 
-subs() is only used inside sync()
+'subs()' is only used inside 'sync()'
 
 It gives a lot of text feedback, might annoy some.
